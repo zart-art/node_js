@@ -1,33 +1,13 @@
 {
-  "name": "get-my-weather_cli",
+  "name": "node_js",
   "version": "1.0.0",
-  "description": "CLI for getting weather",
-  "main": "weather.js",
-  "bin": {
-    "weather": "weather.js"
-  },
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node weather.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zart-art/weather_cli.git"
-  },
-  "keywords": [
-    "cli",
-    "weather"
-  ],
-  "author": "Jay Zhdanov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zart-art/weather_cli/issues"
-  },
-  "homepage": "https://github.com/zart-art/weather_cli#readme",
-  "dependencies": {
-    "axios": "^0.26.1",
-    "chalk": "^5.0.1",
-    "dedent-js": "^1.0.1"
-  }
 }
